@@ -3,65 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <title>Ali's Portfolio</title>
   </head>
   <body>
-    <div class="container-sm">
-      <div class="row">
-        <div class="col-sm">
-          <h1>Ali Mahmoud</h1>
-        </div>
-        <div class="col-sm">
-          <div class="dropdown">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Ali's Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
             >
-              More
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Home</a>
-              <a class="dropdown-item" href="#">Contact</a>
-              <a class="dropdown-item" href="#">Portfolio</a>
-            </div>
-          </div>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
       </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="row">
-            <div class="col-sm-12">
-              <h1>About Me</h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm">
-              <img
-                src="https://pbs.twimg.com/media/EhZA52zWoAM_fMx?format=jpg&name=360x360"
-                alt="picture of Ali Mahmoud"
-              />
-              I am 22 years old. I live in Brooklyn, New York. I moved to the
-              United States in 2017. I was born and raised in Lebanon. I
-              currently study computer science at Columbia Engineering's
-              bootcamp. This move was encouraged by COVID-19, I was one o fmany
-              people who were forced to change their life plans. Before this, I
-              used to work at an Italian restaurant. I also studied Finance and
-              Chemistry at Baruch College, CUNY.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </nav>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
