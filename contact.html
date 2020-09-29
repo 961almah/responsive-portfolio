@@ -12,9 +12,29 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="col-sm"></div>
-      <div class="col-sm"></div>
+    <div class="container-sm">
+      <div class="row">
+        <div class="col-sm">Ali Mahmoud</div>
+        <div class="col-sm">
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Home</a>
+              <a class="dropdown-item" href="#">Contact</a>
+              <a class="dropdown-item" href="#">Portfolio</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
