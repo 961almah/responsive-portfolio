@@ -6,3 +6,7 @@ body {
   max-width: 1024px;
   margin-top: 20px;
 }
+
+.margin {
+  margin: 15px;
+}
